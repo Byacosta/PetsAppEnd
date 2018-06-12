@@ -1,12 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PetsAppEnd.CreateUser">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+             x:Class="PetsAppEnd.CreateUser"
+             BackgroundColor="#2DB2BB">
+
+    <StackLayout 
+            Orientation="Vertical" 
+            Spacing="0" 
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand">
+
+        <Label
+            Text="Register Of User"
+            VerticalTextAlignment="Center"
+            HorizontalOptions="Center"
+            FontAttributes="Bold"
+            FontSize="Large"
+            TextColor="Black"
+            Margin="0, 0, 0, 20"/>
+
+
+        <Entry
+            x:Name="name"
+            Placeholder="Name completed"/>
+
+        <Entry
+            x:Name="lastname"
+            Placeholder="Last Name Completed"/>
+
+        <Entry
+            x:Name="noid"
+            Placeholder="Identification Of Number"/>
+
+        <Entry
+            x:Name="login"
+            Placeholder="Login"/>
+
+        <Entry
+            x:Name="password"
+            Placeholder="Password"/>
+
+        <Entry
+            x:Name="address"
+            Placeholder="Address"/>
+
+        <Entry
+            x:Name="email"
+            Placeholder="Email"/>
+
+
+        <Picker Title="Sexo" x:Name="sex">
+            <Picker.Items>
+                <x:String>Masculino</x:String>
+                <x:String>Femnenino</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <StackLayout
+                Orientation="Horizontal"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand">
+
+            <Button
+                    Text="Register"
+                    Clicked="CreateUsers"/>
+
+            <Button
+                    Text="Return"
+                    Clicked="to_return"/>
+
         </StackLayout>
-    </ContentPage.Content>
+
+
+    </StackLayout>
+
 </ContentPage>

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetsAppEnd.Races">
+
+    <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="FillAndExpand"
+        Spacing="0"
+        BackgroundColor="#2DB2BB">
+
+        <ScrollView
+            Orientation="Horizontal"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+            Orientation="Horizontal"
+            VerticalOptions="FillAndExpand"
+            Spacing="0"
+            Padding="10">
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10">
+
+                    <Label
+                        WidthRequest="300"
+                        Text="1. Mantener un peso saludable"
+                        TextColor="White"
+                        Font="25"
+                        HorizontalTextAlignment="Center"/>
+
+                    <Image
+                        Source="consejo1.png"
+                        HeightRequest="200"
+                        WidthRequest="400"
+                        Margin="0,20,0,30"/>
+
+                    <Label
+                        WidthRequest="300"
+                        Text="Este consejo aplica tanto para mascotas como para los dueños. Uno lleva una vida más ligera cuando no tiene que preocuparse por cargar kilos extra. Tú controlas lo que les estás dando de comer, asegúrate que no les estés dando aserrín. También controla sus porciones y asegúrate que están caminando o corriendo lo suficiente para quemar las calorías. Si hace falta, cómprale también un juguete que lo mantenga activo aún dentro de casa."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        Margin="20,0,20,0"/>
+
+                </StackLayout>
+
+                <BoxView
+                        BackgroundColor="Blue"
+                        WidthRequest="2"/>
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10">
+
+                    <Label
+                        WidthRequest="300"
+                        Text="2. Invierte en su entrenamiento"
+                        TextColor="White"
+                        Font="25"
+                        HorizontalTextAlignment="Center"/>
+
+                    <Image
+                        Source="consejo2.png"
+                        HeightRequest="200"
+                        WidthRequest="400"
+                        Margin="0,20,0,30"/>
+
+                    <Label
+                        WidthRequest="300"
+                        Margin="20,0,20,0"
+                        Text="Las clases para las mascotas benefician al dueño antes que a nadie, pues le otorgan el control tanto para situaciones básicas, como soltar algo que tenga en la boca que no deba masticar, o quedarse tranquilo, o incluso en ocasiones que se presenten."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"/>
+
+                    <Label
+                        WidthRequest="300"
+                        Margin="20,0,20,0"
+                        Text="También es bueno para la socialización de las mascotas, con otras personas, con niños o con otros animales. Mira este enternecedor ejemplo, donde un perro ayuda a un cachorro a bajar las escaleras."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <BoxView
+                        BackgroundColor="Blue"
+                        WidthRequest="2"/>
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10">
+
+                    <Label
+                        WidthRequest="300"
+                        Text="3. Tómate un tiempo para revisar sus dientes"
+                        TextColor="White"
+                        Font="25"
+                        HorizontalTextAlignment="Center"/>
+
+                    <Image
+                        Source="consejo3.png"
+                        HeightRequest="200"
+                        WidthRequest="400"
+                        Margin="0,20,0,30"/>
+
+                    <Label
+                        WidthRequest="300"
+                        Margin="20,0,20,0"
+                        Text="Un cuidado dental adecuado puede reducir el aliento de perro. Puedes ayudarte de cepillos viejos, cepillos de dedo, cepillos para la lengua, aditivos para el agua, gomas de mascar… y por supuesto visitas al veterinario para revisiones y limpiezas periódicas."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <BoxView
+                    BackgroundColor="Blue"
+                    WidthRequest="2"/>
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10">
+
+                    <Label
+                        WidthRequest="300"
+                        Text="4. Agenda visitas al médico"
+                        TextColor="White"
+                        Font="25"
+                        HorizontalTextAlignment="Center"/>
+
+                    <Image
+                        Source="consejo4.png"
+                        HeightRequest="200"
+                        WidthRequest="400"
+                        Margin="0,20,0,30"/>
+
+                    <Label
+                        WidthRequest="300"
+                        Margin="20,0,20,0"
+                        Text="Una revisión periódica no le hace daño a nadie."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <BoxView
+                    BackgroundColor="Blue"
+                    WidthRequest="2"/>
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10">
+
+                    <Label
+                        WidthRequest="300"
+                        Text="5. Mantenlos hidratados"
+                        TextColor="White"
+                        Font="25"
+                        HorizontalTextAlignment="Center"/>
+
+                    <Image
+                        Source="consejo5.gif"
+                        HeightRequest="200"
+                        WidthRequest="400"
+                        Margin="0,20,0,30"/>
+
+                    <Label
+                        WidthRequest="300"
+                        Margin="20,0,20,0"
+                        Text="Las infecciones en las vías urinarias son una de las enfermedades más comunes y son prevenibles. Sólo asegúrate que tus mascotas siempre tienen agua limpia y fresca a su alcance. Cámbiales el agua y lava sus platos regularmente."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <BoxView
+                    BackgroundColor="Blue"
+                    WidthRequest="2"/>
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10">
+
+                    <Label
+                        WidthRequest="300"
+                        Text="6. Protégelos de las pulgas"
+                        TextColor="White"
+                        Font="25"
+                        HorizontalTextAlignment="Center"/>
+
+                    <StackLayout
+                        Orientation="Horizontal"
+                        HorizontalOptions="CenterAndExpand"
+                        Margin="0,20,0,30">
+
+                        <Image
+                            Source="consejo6.png"
+                            HeightRequest="200"
+                            WidthRequest="150"/>
+
+                        <Image
+                            Source="consejo6_2.png"
+                            HeightRequest="150"
+                            WidthRequest="100"/>
+
+                    </StackLayout>
+
+                    <Label
+                        WidthRequest="300"
+                        Margin="20,0,20,0"
+                        Text="En verano o en invierno, hay que mantenerlos protegidos de las pulgas. Incluso en los meses más fríos hay que rociarlos con un polvo antipulgas."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+                <BoxView
+                    BackgroundColor="Blue"
+                    WidthRequest="2"/>
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="10">
+
+                    <Label
+                        Text="7. Estimulación mental"
+                        TextColor="White"
+                        Font="25"
+                        HorizontalTextAlignment="Center"/>
+
+                    <Image
+                        Source="consejo7.png"
+                        HeightRequest="200"
+                        WidthRequest="400"
+                        Margin="0,20,0,30"/>
+
+                    <Label
+                        WidthRequest="300"
+                        Margin="20,0,20,0"
+                        Text="Un perro cansado es un perro feliz. Por otro lado, una mascota aburrida te costará cientos de zapatos, fundas, cajas y objetos mordisqueados. Invierte en juguetes interactivos que los mantendrán ocupados incluso cuando tengas que salir de casa."
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"/>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <StackLayout
+            BackgroundColor="White"
+            Orientation="Horizontal"
+            HorizontalOptions="FillAndExpand"
+            Spacing="0">
+
+            <Button
+                Clicked="NextPerfil"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="profile.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+            <Button
+                Clicked="NextHome"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="home.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+
+            <Button
+                Clicked="NextSalir"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="exit.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

@@ -10,21 +10,21 @@ using Xamarin.Forms.Xaml;
 namespace PetsAppEnd
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Home : ContentPage
+	public partial class Health : ContentPage
 	{
-        public Home()
+		public Health ()
+		{
+			InitializeComponent ();
+		}
+
+        async private void nextQuote()
         {
-            InitializeComponent();
+            await Navigation.PushAsync(new Quotes());
         }
 
-        async private void NextRecomendaciones()
+        async private void NextVaccinations()
         {
-            await Navigation.PushAsync(new Recommendations());
-        }
-
-        async private void NextSalud()
-        {
-            await Navigation.PushAsync(new Health());
+            await Navigation.PushAsync(new Vaccinations());
         }
 
         async private void NextPerfil()
@@ -37,9 +37,11 @@ namespace PetsAppEnd
             await Navigation.PushAsync(new Home());
         }
 
+
         async private void NextSalir()
         {
             await Navigation.PushAsync(new MainPage());
         }
+
     }
 }

@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PetsAppEnd"
-             x:Class="PetsAppEnd.MainPage">
+             x:Class="PetsAppEnd.MainPage"
+             BackgroundColor="#2DB2BB">
 
     <StackLayout Orientation="Vertical" Padding="20,50,20,20">
         <Label Text="Ingreso de usuarios" TextColor="Blue" FontSize="Large" HorizontalOptions="Center"/>

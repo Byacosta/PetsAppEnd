@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetsAppEnd.Vaccinations">
+
+    <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="FillAndExpand"
+        Spacing="0"
+        BackgroundColor="#2DB2BB">
+
+        <ScrollView
+            Orientation="Vertical"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                VerticalOptions="FillAndExpand"
+                Spacing="0"
+                Padding="10">
+
+                <Label
+                    Text="PLAN DE VACUNACIÓN PARA CACHORROS"
+                    TextColor="White"
+                    Font="30"
+                    HorizontalTextAlignment="Center"/>
+
+                <Label
+                    LineBreakMode="WordWrap"
+                    FormattedText="Los cachorros reciben la primera inmunidad de sus madres, gracias a los anticuerpos contenidos al inicio de la lactancia en la leche materna. Dichos anticuerpos se transmiten durante las primeras 24 horas de vida al mamar y luego desaparecen, de manera que el cachorro no estará debidamente protegido si la vacunación no comienza a tiempo. Los cachorros nacen con parásitos transmitidos por la madre a través de la placenta y leche durante la lactancia. Por ello es imprescindible desparasitar a los cachorros antes de comenzar la vacunación."
+                    TextColor="White"
+                    Margin="0,10,0,10"/>
+
+                <ScrollView
+                    Orientation="Horizontal">
+
+                    <StackLayout
+                        Orientation="Horizontal"
+                        BackgroundColor="#2DB2BB"
+                        Spacing="0"
+                        Padding="5">
+
+                        <Image
+                            Source="vacunas1.png"
+                            WidthRequest="400"
+                            HeightRequest="200"
+                            Aspect="Fill"/>
+
+                        <Image
+                            Source="vacunas2.png"
+                            WidthRequest="400"
+                            HeightRequest="200"
+                            Aspect="Fill"/>
+
+                        <Image
+                            Source="vacunas3.png"
+                            WidthRequest="400"
+                            HeightRequest="200"
+                            Aspect="Fill"/>
+
+                        <Image
+                            Source="vacunas4.png"
+                            WidthRequest="400"
+                            HeightRequest="200"
+                            Aspect="Fill"/>
+
+                        <Image
+                            Source="vacunas5.png"
+                            WidthRequest="400"
+                            HeightRequest="200"
+                            Aspect="Fill"/>
+
+                    </StackLayout>
+
+                </ScrollView>
+
+                <Label
+                    LineBreakMode="WordWrap"
+                    FormattedText="A los 45 días de vida: primera dosis de la vacuna contra el Parvovirus."
+                    TextColor="White"
+                    HorizontalTextAlignment="Center"
+                    Margin="0,10,0,10"/>
+
+                <Label
+                FormattedText="A las 9 semanas de edad: la segunda vacuna que será para protección contra Moquillo canino, Adenovirus tipo 2, Hepatitis infecciosa C y Leptospirosis. Y la segunda dosis de la vacuna contra el Parvovirus. La vacuna contra el Coronavirus es opcional."
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                Margin="0,10,0,10"/>
+
+                <Label
+                FormattedText="A las 12 semanas de vida: se repite una dosis de la vacuna anterior y la tercera de Parvovirus."
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                Margin="0,10,0,10"/>
+
+                <Label
+                FormattedText="A partir de los 4 meses de edad: la vacuna contra la Rabia."
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                Margin="0,10,0,10"/>
+
+                <Label
+                FormattedText="Repetir anualmente la vacuna pentavalente (Parvovirus/ Moquillo/ Hepatitis / Parainfluenza / Leptospirosis) y Rabia."
+                TextColor="White"
+                HorizontalTextAlignment="Center"
+                Margin="0,10,0,10"/>
+
+                <Label
+                    FormattedText="También es muy importante desparasitar internamente a los cachorros con cada vacunación porque, al eliminar los parásitos, se garantiza el perfecto estado de las defensas y se propicia que la vacuna produzca un efecto inmunizante óptimo. Una vez que ha terminado el plan de vacunación, se debe desparasitar internamente a los cachorros de forma periódica cada 3-4 meses y antes de cada revacunación."
+                    TextColor="White"
+                    HorizontalTextAlignment="Center"
+                    Margin="0,10,0,10"/>
+
+
+
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <StackLayout
+            BackgroundColor="White"
+            Orientation="Horizontal"
+            HorizontalOptions="FillAndExpand"
+            Spacing="0">
+
+
+            <Button
+                Clicked="NextPerfil"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="profile.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+            <Button
+                Clicked="NextHome"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="home.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+
+            <Button
+                Clicked="NextSalir"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="exit.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+
+
+        </StackLayout>
+
+    </StackLayout>
+
+
+</ContentPage>

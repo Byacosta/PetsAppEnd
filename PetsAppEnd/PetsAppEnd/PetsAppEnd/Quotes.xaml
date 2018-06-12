@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetsAppEnd.Quotes">
+
+    <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="FillAndExpand"
+        Spacing="0"
+        BackgroundColor="#2DB2BB">
+
+        <StackLayout Padding="10, 20, 10 ,0">
+            <Button Text="Create quotes" Clicked="ClickButtonShowWindowNewQuotes"/>
+            <Button Text="Cerrar sesión" Clicked="ClickButtonSignOff"/>
+            <ListView x:Name="listViewQuotes">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Clicked="ClickUpdateQuotes" CommandParameter="{Binding .}" Text="Actualizar" />
+                                <MenuItem Clicked="ClickDeleteQuotes" CommandParameter="{Binding Id}" Text="Eliminar" IsDestructive="True" />
+                            </ViewCell.ContextActions>
+                            <StackLayout Padding="15,0">
+                                
+                                <ScrollView
+                                    Orientation="Vertical">
+
+                                    <StackLayout
+                                        Orientation="Vertical">
+
+                                        <StackLayout 
+                                            Orientation="Horizontal"
+                                            Spacing="0"
+                                            VerticalOptions="FillAndExpand"
+                                            Padding="10">
+
+                                            <Image
+                                                WidthRequest="50"
+                                                HeightRequest="50"
+                                                HorizontalOptions="Start"
+                                                Source="{Binding Image}"
+                                                Margin="0,0,10,0"/>
+
+                                            <StackLayout
+                                                Orientation="Vertical"
+                                                Spacing="0"
+                                                HorizontalOptions="FillAndExpand">
+
+                                                <Label
+                                                    Text="{Binding Name}"
+                                                    TextColor="White"
+                                                    VerticalOptions="FillAndExpand"
+                                                    VerticalTextAlignment="End"
+                                                    FontSize="16"/>
+
+                                                <Label
+                                                    Text="{Binding Address}"
+                                                    TextColor="White"
+                                                    VerticalOptions="FillAndExpand"
+                                                    VerticalTextAlignment="End"/>
+
+                                                <Label
+                                                    Text="{Binding Phone}"
+                                                    TextColor="White"
+                                                    VerticalOptions="FillAndExpand"
+                                                    VerticalTextAlignment="Start"/>
+
+                                            </StackLayout>
+
+                                            <Image
+                                                Source="llamar.png"
+                                                VerticalOptions="Center"
+                                                HorizontalOptions="End"
+                                                Margin="0,0,10,0"/>
+
+                                            <Image
+                                                Source="whatsapp.png"
+                                                VerticalOptions="Center"
+                                                HorizontalOptions="End"/>
+
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                    
+                                    
+                                </ScrollView>
+                            </StackLayout>
+                            
+                            
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+
+
+        <StackLayout
+            BackgroundColor="White"
+            Orientation="Horizontal"
+            HorizontalOptions="FillAndExpand"
+            Spacing="0">
+
+
+            <Button
+                Clicked="NextPerfil"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="profile.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+            <Button
+                Clicked="NextHome"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="home.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+
+            <Button
+                Clicked="NextSalir"
+                BackgroundColor="White"
+                HorizontalOptions="CenterAndExpand">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="iOS, Android" Value="exit.png" />
+                    </OnPlatform>
+                </Button.Image>
+            </Button>
+
+
+
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
