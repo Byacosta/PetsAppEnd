@@ -128,4 +128,109 @@
       <Name>PetsAppEnd</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\parqueBolivar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\parqueChimayoy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\parqueInfantil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\parquePastusidad.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\parqueUnicentro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\peluqueria1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\peluqueria2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\peluqueria4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perroHealth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perroHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\recomendacion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vacunas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vacunas2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vacunas3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vacunas4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vacunas5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vacunas6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\veterinaria1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\veterinaria2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\veterinaria3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\veterinaria4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\whatsapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo6_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\consejo7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\llamar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\medicoHealth.png" />
+  </ItemGroup>
 </Project>

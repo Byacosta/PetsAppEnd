@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PetsAppEnd.Models
 {
-    class Quote
+    public class Quote
     {
 
         public int Id { get; set; }

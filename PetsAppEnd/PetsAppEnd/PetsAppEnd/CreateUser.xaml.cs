@@ -85,5 +85,10 @@ namespace PetsAppEnd
             await Navigation.PushModalAsync(new Home());
         }
 
+        async private void to_return()
+        {
+            await Navigation.PushModalAsync(new MainPage());
+        }
+
     }
 }

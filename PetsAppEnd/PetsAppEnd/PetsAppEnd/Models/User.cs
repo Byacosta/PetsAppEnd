@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PetsAppEnd.Models
 {
-    class User
+    public class User
     {
  
         public Boolean Success { get; set; }

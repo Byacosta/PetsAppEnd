@@ -21,6 +21,11 @@ namespace PetsAppEnd
         private readonly HttpClient client = new HttpClient();
         private Quote quote;
 
+        public UpdateQuotes()
+        {
+            InitializeComponent();
+        }
+
         public UpdateQuotes(Quote quote)
         {
 			InitializeComponent ();

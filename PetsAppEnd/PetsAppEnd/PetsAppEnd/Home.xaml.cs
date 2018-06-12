@@ -37,6 +37,11 @@ namespace PetsAppEnd
             await Navigation.PushAsync(new Home());
         }
 
+        async private void NextQuotes()
+        {
+            await Navigation.PushAsync(new Quotes());
+        }
+
         async private void NextSalir()
         {
             await Navigation.PushAsync(new MainPage());

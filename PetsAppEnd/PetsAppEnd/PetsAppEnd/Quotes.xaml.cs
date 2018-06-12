@@ -65,10 +65,10 @@ namespace PetsAppEnd
 
             };
 
-            ShowWindowUpdateQuotes(quote);
+            showWindowUpdateQuotes(quote);
         }
 
-        async public void ShowWindowUpdateQuotes(Quote quote)
+        async public void showWindowUpdateQuotes(Quote quote)
         {
             await Navigation.PushModalAsync(new UpdateQuotes(quote));
         }
@@ -102,6 +102,21 @@ namespace PetsAppEnd
         async public void showWindowHome()
         {
             await Navigation.PushModalAsync(new Home());
+        }
+
+        async public void NextPerfil()
+        {
+            await Navigation.PushModalAsync(new Profile());
+        }
+
+        async public void NextHome()
+        {
+            await Navigation.PushModalAsync(new Home());
+        }
+
+        async public void NextSalir()
+        {
+            await Navigation.PushModalAsync(new MainPage());
         }
 
     }
