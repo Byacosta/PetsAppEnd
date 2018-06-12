@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:PetsAppEnd"
              x:Class="PetsAppEnd.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout Orientation="Vertical" Padding="20,50,20,20">
+        <Label Text="Ingreso de usuarios" TextColor="Blue" FontSize="Large" HorizontalOptions="Center"/>
+        <Entry x:Name="entryUser" Placeholder="Usuario"/>
+        <Entry x:Name="entryPass" Placeholder="Constraseña" IsPassword="True"/>
+        <Button Text="Ingresar" Clicked="ClickButtonSignIn"/>
+        <Button Text="Crear una cuenta aqui" Clicked="ClickButtonCreateUser"/>
+    </StackLayout>
 
 </ContentPage>

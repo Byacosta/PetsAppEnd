@@ -9,14 +9,14 @@ namespace PetsAppEnd
 {
 	public partial class App : Application
 	{
-		public App ()
-		{
-			InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
 
-			MainPage = new PetsAppEnd.MainPage();
-		}
+            MainPage = new NavigationPage(new MainPage());
+        }
 
-		protected override void OnStart ()
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}
