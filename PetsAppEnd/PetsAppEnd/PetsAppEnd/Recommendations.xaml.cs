@@ -19,18 +19,18 @@ namespace PetsAppEnd
 
         async private void NextPerfil()
         {
-            await Navigation.PushAsync(new Profile());
+            await Navigation.PushModalAsync(new Profile());
         }
 
         async private void NextHome()
         {
-            await Navigation.PushAsync(new Home());
+            await Navigation.PushModalAsync(new Home());
         }
 
 
         async private void NextSalir()
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PushModalAsync(new MainPage());
         }
 
     }

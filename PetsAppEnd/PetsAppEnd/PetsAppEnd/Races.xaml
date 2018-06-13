@@ -25,20 +25,20 @@
 
                     <Label
                         WidthRequest="300"
-                        Text="1. Mantener un peso saludable"
+                        Text="Bull Terrier Inglés Miniatura"
                         TextColor="White"
                         Font="25"
                         HorizontalTextAlignment="Center"/>
 
                     <Image
-                        Source="consejo1.png"
+                        Source="perro1.jpg"
                         HeightRequest="200"
                         WidthRequest="400"
                         Margin="0,20,0,30"/>
 
                     <Label
                         WidthRequest="300"
-                        Text="Este consejo aplica tanto para mascotas como para los dueños. Uno lleva una vida más ligera cuando no tiene que preocuparse por cargar kilos extra. Tú controlas lo que les estás dando de comer, asegúrate que no les estés dando aserrín. También controla sus porciones y asegúrate que están caminando o corriendo lo suficiente para quemar las calorías. Si hace falta, cómprale también un juguete que lo mantenga activo aún dentro de casa."
+                        Text="Es una réplica en miniatura del Bull Terrier. Se desarrolló esta raza para el control de plagas de ratas. Es un magnífico perro mascota y una compañía adecuada para casa o apartamento."
                         TextColor="White"
                         HorizontalTextAlignment="Center"
                         Margin="20,0,20,0"/>
@@ -55,13 +55,13 @@
 
                     <Label
                         WidthRequest="300"
-                        Text="2. Invierte en su entrenamiento"
+                        Text="Chow chow"
                         TextColor="White"
                         Font="25"
                         HorizontalTextAlignment="Center"/>
 
                     <Image
-                        Source="consejo2.png"
+                        Source="perro2.jpg"
                         HeightRequest="200"
                         WidthRequest="400"
                         Margin="0,20,0,30"/>
@@ -69,16 +69,10 @@
                     <Label
                         WidthRequest="300"
                         Margin="20,0,20,0"
-                        Text="Las clases para las mascotas benefician al dueño antes que a nadie, pues le otorgan el control tanto para situaciones básicas, como soltar algo que tenga en la boca que no deba masticar, o quedarse tranquilo, o incluso en ocasiones que se presenten."
+                        Text="El perro chow chow es probablemente una de las razas caninas originarias de China más populares de todo mundo. Cabe destacar que el rasgo más distintivo del chow chow es el color de su lengua, que es azul."
                         TextColor="White"
                         HorizontalTextAlignment="Center"/>
 
-                    <Label
-                        WidthRequest="300"
-                        Margin="20,0,20,0"
-                        Text="También es bueno para la socialización de las mascotas, con otras personas, con niños o con otros animales. Mira este enternecedor ejemplo, donde un perro ayuda a un cachorro a bajar las escaleras."
-                        TextColor="White"
-                        HorizontalTextAlignment="Center"/>
 
                 </StackLayout>
 
@@ -92,13 +86,13 @@
 
                     <Label
                         WidthRequest="300"
-                        Text="3. Tómate un tiempo para revisar sus dientes"
+                        Text="Bichón habanero"
                         TextColor="White"
                         Font="25"
                         HorizontalTextAlignment="Center"/>
 
                     <Image
-                        Source="consejo3.png"
+                        Source="perro3.jpg"
                         HeightRequest="200"
                         WidthRequest="400"
                         Margin="0,20,0,30"/>
@@ -106,7 +100,7 @@
                     <Label
                         WidthRequest="300"
                         Margin="20,0,20,0"
-                        Text="Un cuidado dental adecuado puede reducir el aliento de perro. Puedes ayudarte de cepillos viejos, cepillos de dedo, cepillos para la lengua, aditivos para el agua, gomas de mascar… y por supuesto visitas al veterinario para revisiones y limpiezas periódicas."
+                        Text="El bichón habanero o bichón habanés es un adorable perro pequeño de pelo largo y suave. Los orígenes de la raza se sitúan entre España e Italia, la cuenca del Mediterráneo, pero la raza se desarrolló finalmente en Cuba donde convivió con la aristocracia del siglo XIX. Se trata de un perro jovial, activo y alegre, perfecto para familias muy distintas que busquen un compañero cariñoso."
                         TextColor="White"
                         HorizontalTextAlignment="Center"/>
 
@@ -122,13 +116,13 @@
 
                     <Label
                         WidthRequest="300"
-                        Text="4. Agenda visitas al médico"
+                        Text="Bichón boloñés"
                         TextColor="White"
                         Font="25"
                         HorizontalTextAlignment="Center"/>
 
                     <Image
-                        Source="consejo4.png"
+                        Source="perro4.jpg"
                         HeightRequest="200"
                         WidthRequest="400"
                         Margin="0,20,0,30"/>
@@ -136,7 +130,7 @@
                     <Label
                         WidthRequest="300"
                         Margin="20,0,20,0"
-                        Text="Una revisión periódica no le hace daño a nadie."
+                        Text="El bichón boloñés es un perro pequeño y compacto de pelaje blanco y origen italiano. Está emparentado con el bichón frisé y el bichón habanero, y es un perro poco común y difícil de conseguir."
                         TextColor="White"
                         HorizontalTextAlignment="Center"/>
 
@@ -152,13 +146,13 @@
 
                     <Label
                         WidthRequest="300"
-                        Text="5. Mantenlos hidratados"
+                        Text="Schnauzer miniatura"
                         TextColor="White"
                         Font="25"
                         HorizontalTextAlignment="Center"/>
 
                     <Image
-                        Source="consejo5.gif"
+                        Source="perro5.jpg"
                         HeightRequest="200"
                         WidthRequest="400"
                         Margin="0,20,0,30"/>
@@ -166,7 +160,7 @@
                     <Label
                         WidthRequest="300"
                         Margin="20,0,20,0"
-                        Text="Las infecciones en las vías urinarias son una de las enfermedades más comunes y son prevenibles. Sólo asegúrate que tus mascotas siempre tienen agua limpia y fresca a su alcance. Cámbiales el agua y lava sus platos regularmente."
+                        Text="Pequeño, alegre, leal y barbudo es el schnauzer miniatura o zwergschnauzer. Aunque su talla no supera los 35 centímetros, es un perro muy valiente y dinámico. Es la versión en miniatura del schnauzer estándar y schnauzer gigante, por lo que es el compañero de vida perfecto para aquellas personas que adoran esta raza de perro pero no disponen del espacio necesario para ofrecer a sus hermanos mayores."
                         TextColor="White"
                         HorizontalTextAlignment="Center"/>
 
@@ -182,32 +176,20 @@
 
                     <Label
                         WidthRequest="300"
-                        Text="6. Protégelos de las pulgas"
+                        Text="Samoyedo"
                         TextColor="White"
                         Font="25"
                         HorizontalTextAlignment="Center"/>
 
-                    <StackLayout
-                        Orientation="Horizontal"
-                        HorizontalOptions="CenterAndExpand"
-                        Margin="0,20,0,30">
-
-                        <Image
-                            Source="consejo6.png"
+                    <Image
+                            Source="perro6.jpg"
                             HeightRequest="200"
                             WidthRequest="150"/>
 
-                        <Image
-                            Source="consejo6_2.png"
-                            HeightRequest="150"
-                            WidthRequest="100"/>
-
-                    </StackLayout>
-
                     <Label
                         WidthRequest="300"
                         Margin="20,0,20,0"
-                        Text="En verano o en invierno, hay que mantenerlos protegidos de las pulgas. Incluso en los meses más fríos hay que rociarlos con un polvo antipulgas."
+                        Text="El samoyedo es una de las razas caninas rusas más populares del mundo. Su manto blanco, esponjoso y denso es realmente popular y apreciado por los amantes de los perros. No obstante, este perro muestra además un carácter muy especial y sociable, perfecto para familias activas y con niños o adolescentes."
                         TextColor="White"
                         HorizontalTextAlignment="Center"/>
 
@@ -222,13 +204,13 @@
                     Padding="10">
 
                     <Label
-                        Text="7. Estimulación mental"
+                        Text="Collie de pelo largo"
                         TextColor="White"
                         Font="25"
                         HorizontalTextAlignment="Center"/>
 
                     <Image
-                        Source="consejo7.png"
+                        Source="perro7.jpg"
                         HeightRequest="200"
                         WidthRequest="400"
                         Margin="0,20,0,30"/>
@@ -236,7 +218,7 @@
                     <Label
                         WidthRequest="300"
                         Margin="20,0,20,0"
-                        Text="Un perro cansado es un perro feliz. Por otro lado, una mascota aburrida te costará cientos de zapatos, fundas, cajas y objetos mordisqueados. Invierte en juguetes interactivos que los mantendrán ocupados incluso cuando tengas que salir de casa."
+                        Text="El collie de pelo largo es un perro pastor que, por su belleza y buen carácter, se ha convertido en uno de los más apreciados entre los perros de exposición y animales de compañía. También se conoce simplemente como collie (aunque existe una variedad de pelo corto) o, erróneamente, como Lassie."
                         TextColor="White"
                         HorizontalTextAlignment="Center"/>
 

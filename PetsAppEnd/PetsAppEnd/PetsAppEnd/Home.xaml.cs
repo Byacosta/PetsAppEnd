@@ -19,32 +19,32 @@ namespace PetsAppEnd
 
         async private void NextRecomendaciones()
         {
-            await Navigation.PushAsync(new Recommendations());
+            await Navigation.PushModalAsync(new Recommendations());
         }
 
         async private void NextSalud()
         {
-            await Navigation.PushAsync(new Health());
+            await Navigation.PushModalAsync(new Health());
         }
 
         async private void NextPerfil()
         {
-            await Navigation.PushAsync(new Profile());
+            await Navigation.PushModalAsync(new Profile());
         }
 
         async private void NextHome()
         {
-            await Navigation.PushAsync(new Home());
+            await Navigation.PushModalAsync(new Home());
         }
 
-        async private void NextQuotes()
+        async private void NextRaces()
         {
-            await Navigation.PushAsync(new Quotes());
+            await Navigation.PushModalAsync(new Races());
         }
 
         async private void NextSalir()
         {
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PushModalAsync(new MainPage());
         }
     }
 }

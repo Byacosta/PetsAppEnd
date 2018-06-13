@@ -233,4 +233,25 @@
   <ItemGroup>
     <BundleResource Include="Resources\medicoHealth.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perro5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perro6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perro7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perro1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perro2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perro3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\perro4.jpg" />
+  </ItemGroup>
 </Project>

@@ -40,8 +40,8 @@
                 Clicked="NextSalud"/>
 
             <Button
-                Text="Citas"
-                Clicked="NextQuotes"/>
+                Text="Razas"
+                Clicked="NextRaces"/>
 
 
         </StackLayout>
